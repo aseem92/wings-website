@@ -1,212 +1,232 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WINGS.</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="assets/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WINGS.</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <nav class="navbar">
+<header class="navbar">
 
-        <div class="logo">
-            <img src="assets/logo.png" alt="WINGS Logo">
-        </div>
-
-            <ul class="nav-links">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#menu">MENU</a></li>
-                <li><a href="#story">OUR STORY</a></li>
-                <li><a href="#whywings">WHY WINGS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-
-        <button class="whatsapp-btn">
-            ORDER ON WHATSAPP
-        </button>
-
-    </nav>
-
-    <section class="hero">
-
-        <div class="hero-left">
-
-            <div class="hero-logo">
-                <img src="assets/logo.png" alt="WINGS">
-            </div>
-
-            <h2 class="red-text">HOT CHICKEN.</h2>
-
-            <h2>SIGNATURE RANCH.</h2>
-
-            <p class="tagline">
-                HEAT MEETS INDULGENCE.
-            </p>
-            <p class="hero-subtitle">
-                Premium Hot Chicken • Signature Ranch • Delivered Fresh
-            </p>
-            <p class="launch-tag">
-                🔥 Launching Soon in Jabalpur
-            </p>
-
-            <div class="hero-buttons">
-                
-
-                <button class="gold-btn">
-                    ORDER NOW
-                </button>
-
-                <button class="outline-btn">
-                    VIEW MENU
-                </button>
-
-            </div>
-
-        </div>
-
-        <div class="hero-right">
-
-            <img src="assets/hero-chicken.jpg" alt="Chicken">
-
-        </div>
-        
-
-    </section>
-    <section id="whywings" class="features">
-
-    <div class="feature-box">
-        <h3>🔥 SIGNATURE HEAT</h3>
-        <p>
-            Crispy fried chicken finished with our
-            signature spice blend.
-        </p>
+    <div class="logo">
+        <img src="assets/logo.png" alt="WINGS">
     </div>
 
-    <div class="feature-box">
-        <h3>🥣 SIGNATURE RANCH</h3>
-        <p>
-            Rich, creamy and made fresh.
+    <ul class="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#story">OUR STORY</a></li>
+        <li><a href="#why">WHY WINGS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+
+    <a
+        href="https://wa.me/917694997330?text=Hi%20WINGS.%20I%20want%20to%20place%20an%20order."
+        class="whatsapp-btn"
+        target="_blank">
+
+        ORDER ON WHATSAPP
+
+    </a>
+</header>
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <h1 class="brand-title">
+            WINGS.
+        </h1>
+
+        <h2 class="red-title">
+            NASHVILLE HOT CHICKEN.
+        </h2>
+
+        <h2 class="white-title">
+            SIGNATURE RANCH.
+        </h2>
+
+        <div class="divider"></div>
+
+        <p class="tagline">
+            HEAT MEETS INDULGENCE.
         </p>
+
+        <div class="hero-buttons">
+
+            <a href="https://wa.me/917694997330?text=Hi%20WINGS.%20I%20want%20to%20place%20an%20order."
+                class="gold-btn"
+                target="_blank">
+                ORDER NOW
+            </a>
+
+            <a href="#menu" class="outline-btn">
+                VIEW MENU
+            </a>
+
+        </div>
+
     </div>
 
-    <div class="feature-box">
-        <h3>📦 PREMIUM EXPERIENCE</h3>
+    <div class="hero-right">
+
+        <img src="assets/hero-chicken.jpg" alt="Chicken">
+
+    </div>
+
+</section>
+
+<section class="features">
+
+    <div class="feature">
+
+        <h3>NASHVILLE HEAT</h3>
+
+        <p>
+            Buttermilk-marinated chicken finished with our signature hot glaze.
+        </p>
+
+    </div>
+
+    <div class="feature">
+
+        <h3>SIGNATURE RANCH</h3>
+
+        <p>
+            Rich, cool and unforgettable.
+        </p>
+
+    </div>
+
+    <div class="feature">
+
+        <h3>PREMIUM EXPERIENCE</h3>
+
         <p>
             Luxury isn't just taste.
             It's the entire experience.
         </p>
+
     </div>
 
 </section>
-<section id="menu" class="menu-section">
 
-    <h2 class="menu-title">OUR MENU</h2>
+<section id="menu" class="menu">
+
+    <h2>OUR MENU</h2>
+
+    <div class="divider center"></div>
 
     <div class="menu-grid">
 
-        <div class="menu-card">
-            <img src="assets/signature-box.jpg" alt="Signature Box">
-            <h3>WINGS. SIGNATURE BOX</h3>
+        <div class="card">
+            <img src="assets/signature-box.jpg">
+            <h3>WINGS. HOT BOX</h3>
             <p>4 Pieces + Signature Ranch</p>
+            <span>₹249</span>
+        </div>
+
+        <div class="card">
+            <img src="assets/elite-box.jpg">
+            <h3>WINGS. ELITE BOX</h3>
+            <p>6 Pieces + Double Ranch</p>
             <span>₹349</span>
         </div>
 
-        <div class="menu-card">
-            <img src="assets/elite-box.jpg" alt="Elite Box">
-            <h3>WINGS. ELITE BOX</h3>
-            <p>6 Pieces + Double Ranch</p>
-            <span>₹449</span>
+        <div class="card">
+            <img src="assets/burger.jpg">
+            <h3>WINGS. BURGER</h3>
+            <p>Nashville Hot Chicken Burger</p>
+            <span>₹199</span>
         </div>
 
-        <div class="menu-card">
-            <img src="assets/burger.jpg" alt="Burger">
-            <h3>WINGS. SIGNATURE BURGER</h3>
-            <p>Hot Chicken Fillet + Ranch</p>
-            <span>₹279</span>
-        </div>
-
-        <div class="menu-card">
-            <img src="assets/fries.jpg" alt="Fries">
+        <div class="card">
+            <img src="assets/fries.jpg">
             <h3>LOADED RANCH FRIES</h3>
             <p>Crispy Fries + Ranch</p>
-            <span>₹179</span>
+            <span>₹169</span>
         </div>
 
-        <div class="menu-card">
-            <img src="assets/ranch.jpg" alt="Ranch">
+        <div class="card">
+            <img src="assets/ranch.jpg">
             <h3>EXTRA SIGNATURE RANCH</h3>
-            <p>Made Fresh Daily</p>
+            <p>Add More Indulgence</p>
             <span>₹49</span>
         </div>
 
     </div>
 
 </section>
-<section  id="story" class="story-section">
+
+<section id="why" class="story">
 
     <div class="story-image">
-        <img src="assets/packaging.jpg" alt="Packaging">
+
+        <img src="assets/packaging.jpg">
+
     </div>
 
     <div class="story-content">
 
-        <h2>OUR STORY</h2>
+        <h2>WHY WINGS?</h2>
 
         <p>
-            WINGS. was created with one simple idea.
-            Bring premium hot chicken and signature ranch
-            to people who want more than fast food.
+            Sometimes, when life doesn't give you wings,
+            you build your own.
         </p>
 
         <p>
-            No shortcuts.
-            No compromises.
-            Just heat, crunch and indulgence.
+            WINGS started with a simple dream:
+            build something meaningful from scratch
+            and create opportunities for others.
         </p>
 
-        <div class="story-features">
-
-            <div class="story-item">
-                ⭐ Premium Ingredients
-            </div>
-
-            <div class="story-item">
-                👨‍🍳 Made Fresh Daily
-            </div>
-
-            <div class="story-item">
-                ❤️ Crafted For Indulgence
-            </div>
-
-        </div>
+        <p>
+            Every order helps this dream take flight.
+        </p>
 
     </div>
 
 </section>
-<footer id="contact" class="footer">
+
+<footer id="contact">
 
     <h2>LET'S CONNECT</h2>
 
     <div class="footer-grid">
 
         <div>
-           <a class="whatsapp-btn"
-                href="https://wa.me/919999999999?text=Hi%20WINGS.%20I%20want%20to%20place%20an%20order."
-                target="_blank">
-                ORDER ON WHATSAPP
+
+            <a
+            href="https://wa.me/917694997330?text=Hi%20WINGS.%20I%20want%20to%20place%20an%20order."
+            class="whatsapp-btn"
+            target="_blank">
+
+            ORDER ON WHATSAPP
+
             </a>
+
         </div>
 
         <div>
-            📷 Instagram
-            <br>
+
+            <a
+            href="https://instagram.com/wingsjbp"
+            target="_blank">
+
             @wingsjbp
+
+            </a>
+
         </div>
 
         <div>
@@ -215,8 +235,10 @@
 
     </div>
 
-</footer>
+    <p class="footer-tag">
+        LET'S TAKE OFF.
+    </p>
 
+</footer>
 </body>
 </html>
-```
